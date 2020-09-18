@@ -1,0 +1,8 @@
+{
+  "ignore": [".DS_Store"],
+  "updateFreq": 0.5,
+  "dirs": [{
+    "watch": "/Users/jose/Downloads",
+    "target": "/Users/jose/Documents/DownloadClone" 
+  }]
+}
