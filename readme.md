@@ -34,7 +34,7 @@ You should see messages informing you of the watched folders. You'll want to lea
 
 ## Config
 
-PyCloud's config is pretty powerful, allowing you to customize most of its behavior. Let's walk through it -- anything after // is a comment that indicates what to do.
+PyCloud's config is pretty powerful, allowing you to customize most of its behavior. Below is an example config that explains this:
 
 ```jsonc
 {
