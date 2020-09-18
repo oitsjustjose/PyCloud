@@ -11,15 +11,15 @@ PyCloud uses Python (as the name hints), so you'll need to have Python installed
 Once installed, you'll want to open up the `.sh` or `.bat` file to install the Python dependencies (there's only one).
 
 ### Windows
-To install the Python dependencies, just double-click on `install.bat`. You should get a success message when it's completed!
+To install the Python dependencies, just double-click on `scripts/install.bat`. You should get a success message when it's completed!
 
 ### macOS + Linux 🐧
 To install the Python dependencies, you'll need to crack open the terminal (`/Applications/Utilities/Terminal.app` for macOS; it varies for Linux). Once there, you'll need to type in the following:
 
 ```
 $ > cd <directory of unzipped project>
-$ > chmod +x ./install.sh
-$ > ./install.sh
+$ > chmod +x ./scripts/install.sh
+$ > ./scripts/install.sh
 ```
 
 Once completed you should get a success message!
@@ -28,7 +28,7 @@ Once completed you should get a success message!
 
 Once you have Python and its dependencies set up, it's time to run! To do so, just run the following command in your terminal / Python (don't forget to `cd` into the project folder first if necessary)
 
-```python main.py```
+```python -m src.main.py```
 
 You should see messages informing you of the watched folders. You'll want to leave this window open, or [run it in the background](https://www.tecmint.com/run-linux-command-process-in-background-detach-process/) if you know how 😊
 
