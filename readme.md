@@ -44,7 +44,7 @@ PyCloud's config is pretty powerful, allowing you to customize most of its behav
   "updateFreq": 0.5, 
 // A list (add as many as you want!) of dirs to clone
   "dirs": [{
-	  // The directory to listen for (in this case, my downloads)
+	// The directory to listen for (in this case, my downloads)
     "watch": "/Users/jose/Downloads",
     // The directory to copy to. It'll make a Downloads folder in DownloadsClone
     "target": "/Users/jose/Documents/DownloadClone" 
